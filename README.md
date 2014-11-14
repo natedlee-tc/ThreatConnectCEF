@@ -32,4 +32,4 @@ The ```tc.get_indicators()``` function can take a variety of inputs, see the Thr
   results = tc.get_indicators_by_tag("APT", indicator_type="hosts", owners=ownerList)
 ```
 
-Severity in the CEF output is defined by the indicator's rating in ThreatConnect -- thsi can also be modified or weighted by the confidence if needed.
+Severity in the CEF output is defined by the indicator's rating in ThreatConnect -- this can also be modified or weighted by the confidence if needed.
