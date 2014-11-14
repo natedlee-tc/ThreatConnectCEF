@@ -1,4 +1,4 @@
-ThreatConnectArcSight
+ThreatConnectCEF
 =====================
 This script will allow you to transform ThreatConnect indicators into the Common Event Format [(CEF)](https://protect724.hp.com/servlet/JiveServlet/previewBody/1072-102-6-4697/CommonEventFormat.pdf) used by HP's ArcSight product.  
 
