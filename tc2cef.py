@@ -1,5 +1,5 @@
 #####################################################
-##      cef.py
+##      tc2cef.py
 ##      Updated 13 Nov 2014
 ##    
 ##      Polls ThreatConnect instance for indicators, 
