@@ -44,7 +44,10 @@ def main():
         results_data = results.data()
 
         for result in results_data._data:
-            print (indicatorToCEF(result))
+            cef = (indicatorToCEF(result)).replace("\r\n", "\n").encode('utf-8', "ignore")
+            print (cef)
+            # uncomment line below for syslog output
+            # syslog_logger.critical(cef)
           
 
 
